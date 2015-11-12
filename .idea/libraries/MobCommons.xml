@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="MobCommons">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/MobCommons.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/MobTools.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/ShareSDK-Core-2.6.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/ShareSDK-QQ-2.6.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/ShareSDK-QZone-2.6.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/ShareSDK-SinaWeibo-2.6.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/ShareSDK-Wechat-2.6.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/ShareSDK-Wechat-Core-2.6.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/ShareSDK-Wechat-Moments-2.6.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
