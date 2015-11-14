@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">书城小说</string>
+    <string name="app_name">棒棒书城</string>
     <string name="no_network"> 网络异常，请检查网络！</string>
     <string name="header">2048</string>
     <string name="action_settings">Settings</string>
