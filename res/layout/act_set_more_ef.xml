@@ -80,6 +80,7 @@
         <RelativeLayout
             android:id="@+id/set_more_feedback"
             android:layout_width="fill_parent"
+            android:visibility="gone"
             android:layout_height="50dp"
             android:layout_marginTop="15dp"
             android:background="@drawable/selector_book_shelf_item_ef" >

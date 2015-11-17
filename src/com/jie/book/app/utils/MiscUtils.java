@@ -191,12 +191,12 @@ public class MiscUtils {
 		if (enable) {
 			lp.flags |= WindowManager.LayoutParams.FLAG_FULLSCREEN;
 			if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.ICE_CREAM_SANDWICH)
-				rootView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_HIDE_NAVIGATION);
+				rootView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LOW_PROFILE);
 			window.setAttributes(lp);
 		} else {
 			lp.flags &= ~WindowManager.LayoutParams.FLAG_FULLSCREEN;
 			if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.ICE_CREAM_SANDWICH)
-				rootView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_HIDE_NAVIGATION);
+				rootView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_VISIBLE);
 			window.setAttributes(lp);
 		}
 	}
@@ -208,7 +208,7 @@ public class MiscUtils {
 				@TargetApi(Build.VERSION_CODES.ICE_CREAM_SANDWICH)
 				public void handleMessage(Message msg) {
 					super.handleMessage(msg);
-					activity.getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_HIDE_NAVIGATION);
+					activity.getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LOW_PROFILE);
 				}
 
 			}.sendEmptyMessageDelayed(0, 1000);

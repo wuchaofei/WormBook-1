@@ -38,8 +38,8 @@ public class SquareActivity extends BaseActivity implements OnClickListener {
 	protected void initUI() {
 		spUtil = SharedPreferenceUtil.getInstance(activity);
 		viewAppList = findViewById(R.id.square_app);
-		viewAppList.setVisibility(spUtil.getInt(Config.OPEN_APP_LIST, Config.OPEN_APP_LIST_DEFAULT) == 1 ? View.VISIBLE
-				: View.GONE);
+		viewAppList.setVisibility(spUtil.getInt(Config.OPEN_APP_LIST, Config.OPEN_APP_LIST_DEFAULT) == 1 ? View.VISIBLE : View.GONE);
+		viewAppList.setVisibility(View.VISIBLE);
 	}
 
 	@Override
