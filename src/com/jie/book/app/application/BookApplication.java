@@ -93,7 +93,7 @@ public class BookApplication extends Application {
 		if (!StringUtil.isEmpty(umengParams) && !umengParams.equals(Config.USER_NOTIFICATION_DEFAULT)
 				&& !Cookies.getUserSetting().hasNotifiString(umengParams)) {
 			Cookies.getUserSetting().setNotifiString(umengParams);
-			String title = "书城小说提醒您";
+			String title = "棒棒书城提醒您";
 			Notification notification = new Notification(R.drawable.logo, title, System.currentTimeMillis());
 			NotificationManager nm = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
 			if (Cookies.getUserSetting().isNotifiVoiceOpen())// b) 发出提示音，如：

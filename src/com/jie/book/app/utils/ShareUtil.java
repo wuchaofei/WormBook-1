@@ -25,7 +25,7 @@ import com.jie.book.app.view.PopupHelper.PopGravity;
 import com.jie.book.app.view.PopupHelper.PopStyle;
 
 public class ShareUtil {
-	public static final String TITLE = "书城小说-免费追书工具";
+	public static final String TITLE = "棒棒书城-免费追书工具";
 	public static final String COM_SITE = "http://www.shuchengxs.com/";
 	public static final String QQ_SITE = "http://a.app.qq.com/o/simple.jsp?pkgname=com.jie.book.app";
 	public static final String CONTENT = "专业的网络小说阅读神器。最热最全小说一网打尽。";

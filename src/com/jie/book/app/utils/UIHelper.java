@@ -483,9 +483,9 @@ public class UIHelper {
 	// 确认下载
 	public static void suerDownload(final BaseActivity context, final UpdateResponse updateInfo, final boolean canCancel) {
 		if (MiscUtils.isWifiConnected(context)) {
-			DownloadService.luanch(context, "书城小说V" + updateInfo.version, updateInfo.path);
+			DownloadService.luanch(context, "棒棒书城V" + updateInfo.version, updateInfo.path);
 			if (!canCancel) {
-				UIHelper.showOneButtonDialog(context, "书城小说V" + updateInfo.version + "正在下载中...", "返回桌面", false, false,
+				UIHelper.showOneButtonDialog(context, "棒棒书城V" + updateInfo.version + "正在下载中...", "返回桌面", false, false,
 						new OnDialogClickListener() {
 
 							@Override
@@ -509,9 +509,9 @@ public class UIHelper {
 
 						@Override
 						public void onClick() {
-							DownloadService.luanch(context, "书城小说V" + updateInfo.version, updateInfo.path);
+							DownloadService.luanch(context, "棒棒书城V" + updateInfo.version, updateInfo.path);
 							if (!canCancel) {
-								UIHelper.showOneButtonDialog(context, "书城小说V" + updateInfo.version + "正在下载中...",
+								UIHelper.showOneButtonDialog(context, "棒棒书城V" + updateInfo.version + "正在下载中...",
 										"返回桌面", false, false, new OnDialogClickListener() {
 
 											@Override
