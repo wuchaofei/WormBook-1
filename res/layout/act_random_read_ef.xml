@@ -57,7 +57,7 @@
         </LinearLayout>
     </LinearLayout>
 
-    <com.jie.book.app.view.filpView.FlipView
+    <com.jie.book.work.view.filpView.FlipView
         android:id="@+id/flip_view"
         android:layout_width="match_parent"
         android:layout_height="fill_parent"

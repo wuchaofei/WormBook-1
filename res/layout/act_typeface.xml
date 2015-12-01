@@ -31,7 +31,7 @@
         android:fastScrollEnabled="true"
         android:listSelector="#00000000" />
 
-    <com.jie.book.app.view.EmptyPage
+    <com.jie.book.work.view.EmptyPage
         android:id="@+id/empty_page"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"

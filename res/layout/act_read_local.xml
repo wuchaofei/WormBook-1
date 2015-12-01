@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:mbook="http://schemas.android.com/apk/res/com.jie.book.app"
+    xmlns:mbook="http://schemas.android.com/apk/res/com.jie.book.work"
     android:id="@+id/layout_readborad_main"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent" >
 
-    <com.jie.book.app.read.ReadSlidingView
+    <com.jie.book.work.read.ReadSlidingView
         android:id="@+id/layout_readborad_root_sliding"
         android:layout_width="wrap_content"
         android:layout_height="fill_parent" >
@@ -52,7 +52,7 @@
                 android:layout_height="fill_parent"
                 android:layout_above="@id/adParentLayout" >
 
-                <com.jie.book.app.local.LocalReadingBoard
+                <com.jie.book.work.local.LocalReadingBoard
                     android:id="@+id/readingBoard"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent" />
@@ -80,7 +80,7 @@
                 android:textColor="#ffff"
                 android:visibility="gone" />
         </RelativeLayout>
-    </com.jie.book.app.read.ReadSlidingView>
+    </com.jie.book.work.read.ReadSlidingView>
 
     <include
         android:layout_alignParentBottom="true"
@@ -93,12 +93,12 @@
         android:background="@color/guide_transparent"
         android:visibility="gone" >
 
-        <com.jie.book.app.view.LimitViewPager
+        <com.jie.book.work.view.LimitViewPager
             android:id="@+id/guide_viewpager"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent" />
 
-        <com.jie.book.app.view.CirclePageIndicator
+        <com.jie.book.work.view.CirclePageIndicator
             android:id="@+id/guide_indicator"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"

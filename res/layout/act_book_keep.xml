@@ -32,7 +32,7 @@
         </RelativeLayout>
     </RelativeLayout>
 
-    <com.jie.book.app.view.pullrefresh.PullToRefreshListView
+    <com.jie.book.work.view.pullrefresh.PullToRefreshListView
         android:id="@+id/pull_refresh_list"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"

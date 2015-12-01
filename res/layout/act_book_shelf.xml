@@ -156,7 +156,7 @@
             </LinearLayout>
         </RelativeLayout>
 
-        <com.jie.book.app.view.LimitViewPager
+        <com.jie.book.work.view.LimitViewPager
             android:id="@+id/ac_base_pager"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent" />

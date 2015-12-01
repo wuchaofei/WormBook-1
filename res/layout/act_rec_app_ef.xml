@@ -98,7 +98,7 @@
                 android:orientation="vertical"
                 android:paddingTop="8dp" >
 
-                <com.jie.book.app.view.HorizontalListView
+                <com.jie.book.work.view.HorizontalListView
                     android:id="@+id/rec_app_image"
                     android:layout_width="fill_parent"
                     android:layout_height="300dp" />

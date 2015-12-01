@@ -6,7 +6,7 @@
     android:background="@color/book_shelf_bg"
     android:orientation="vertical" >
 
-    <com.jie.book.app.view.pullrefresh.PullToRefreshButtomListView
+    <com.jie.book.work.view.pullrefresh.PullToRefreshButtomListView
         android:id="@+id/pull_refresh_list"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"

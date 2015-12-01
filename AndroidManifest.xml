@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package= "com.jie.book.app"
-    android:versionCode="34"
-    android:versionName="3.0" >
+    package= "com.jie.book.work"
+    android:versionCode="30101"
+    android:versionName="3.0.1.0.1" >
 
     <uses-sdk
         android:minSdkVersion="11"
@@ -135,11 +135,11 @@
             android:configChanges="orientation|keyboard|screenSize"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.jie.book.app.local.LocalMarkListActivity"
+            android:name="com.jie.book.work.local.LocalMarkListActivity"
             android:configChanges="orientation|keyboard|screenSize"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.jie.book.app.local.LocalChapterListActivity"
+            android:name="com.jie.book.work.local.LocalChapterListActivity"
             android:configChanges="orientation|keyboard|screenSize"
             android:screenOrientation="portrait" />
         <activity
@@ -262,7 +262,7 @@
                 android:screenOrientation="portrait"
                 android:windowSoftInputMode="stateHidden|adjustResize" >
             <intent-filter>
-                <data android:scheme="tencent1104959450" />
+                <data android:scheme="tencent1104997462" />
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.BROWSABLE" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -305,7 +305,7 @@
         <!-- BDAPPUNIONSDK end -->
         <meta-data
             android:name="UMENG_APPKEY"
-            android:value="53c64aaa56240b2d5606b4cc" />
+            android:value="565c1c0e67e58e1d960036ac" />
         <meta-data
             android:name="UMENG_CHANNEL"
             android:value="site" />

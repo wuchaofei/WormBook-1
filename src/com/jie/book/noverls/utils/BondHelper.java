@@ -1,10 +1,10 @@
 package com.jie.book.noverls.utils;
 
 import android.content.Context;
-import com.jie.book.app.application.BookApplication;
-import com.jie.book.app.utils.Config;
-import com.jie.book.app.utils.MiscUtils;
-import com.jie.book.app.utils.SharedPreferenceUtil;
+import com.jie.book.work.application.BookApplication;
+import com.jie.book.work.utils.Config;
+import com.jie.book.work.utils.MiscUtils;
+import com.jie.book.work.utils.SharedPreferenceUtil;
 
 
 public class BondHelper {

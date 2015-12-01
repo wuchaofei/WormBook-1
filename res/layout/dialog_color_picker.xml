@@ -8,7 +8,7 @@
     android:paddingRight="16dp"
     android:paddingTop="5dp" >
 
-    <com.jie.book.app.view.colorPicker.ColorPickerView
+    <com.jie.book.work.view.colorPicker.ColorPickerView
         android:id="@id/color_picker_view"
         style="@style/dialog_color_pciker_view_portrait"
         android:layout_alignParentTop="true"
@@ -23,7 +23,7 @@
         android:layout_marginTop="10dp"
         android:orientation="horizontal" >
 
-        <com.jie.book.app.view.colorPicker.ColorPanelView
+        <com.jie.book.work.view.colorPicker.ColorPanelView
             android:id="@id/color_panel_old"
             android:layout_width="0px"
             android:layout_height="fill_parent"
@@ -39,7 +39,7 @@
             android:textColor="#777777"
             android:textSize="20sp" />
 
-        <com.jie.book.app.view.colorPicker.ColorPanelView
+        <com.jie.book.work.view.colorPicker.ColorPanelView
             android:id="@id/color_panel_new"
             android:layout_width="0px"
             android:layout_height="fill_parent"
